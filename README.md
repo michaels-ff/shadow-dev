@@ -30,8 +30,9 @@ A aplicação carrega uma lista de linguagens de programação a partir de um ar
 
 ## 🚀 Como Usar
 
-1.  Certifique-se de que todos os arquivos (`index.html`, `script.js`, `data.json` e a pasta de imagens) estejam na mesma estrutura de diretórios.
+1.  Veja se todos os arquivos (`index.html`, `script.js`, `data.json` e a pasta de imagens) estejam na mesma estrutura de diretórios.
 2.  Abra o arquivo `index.html` em um navegador web.
 3.  Digite o nome de uma linguagem de programação no campo de busca para ver os resultados.
+
 
 ---
