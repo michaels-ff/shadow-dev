@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shadow.css">
+    <title>Linguagens de Programação</title>
+    <style>
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .footer .logo {
+            border-radius: 50%;
+        }
+        .footer .logo-titulo {
+            flex-direction: column;
+        }
+        .instagram-icon {
+            width: 40px; /* Você pode ajustar este valor como preferir */
+        
+        
+        }
+        .search-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .search-container input::placeholder {
+            text-align: center;
+        }
+        .search-container button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-titulo">
+            <img src="imagens/shadow.jpg" alt="Logo Shadow Garden" class="logo">
+            <h1>SHADOW GARDEN</h1>
+        </div>
+    </header>
+    <div class="search-container">
+        <input type="text" placeholder="Digite uma linguagem de programação">
+        <button id="botao-busca" onclick="iniciarBusca()">Pesquisar</button>
+    </div>
+        <div class="intro-text">
+        <h3>Programação e suas linguagens</h3>
+        <p> A programação é a arte e a ciência de dar instruções a um computador para que ele realize tarefas específicas. É o alicerce do mundo digital em que vivemos, desde os aplicativos em nossos smartphones até os complexos sistemas que gerenciam finanças globais. Através de um conjunto lógico de comandos, os desenvolvedores conseguem criar soluções inovadoras, automatizar processos e transformar ideias abstratas em ferramentas funcionais que moldam nossa interação com a tecnologia.</p>
+        <p> Para se comunicar com as máquinas, existe uma vasta gama de linguagens, cada uma com sua própria sintaxe e filosofia. Algumas são projetadas para serem rápidas e eficientes, ideais para sistemas que exigem alto desempenho. Outras priorizam a simplicidade e a legibilidade, facilitando o desenvolvimento rápido de aplicações web e análise de dados. Essa diversidade permite que os programadores escolham a ferramenta mais adequada para cada desafio, criando um ecossistema tecnológico rico e multifacetado.</p>
+        <p class="intro-highlight"><strong>Clique em pesquisar e veja a seguir as linguagens mais conhecidas, ou se preferir, procure a sua favorita.</strong></p>
+    </div>
+    <main>
+
+        <h2 class="main-title">As 10 linguagens de programação mais conhecidas</h2>
+
+
+        <section class="card-container">
+            <!-- <article class="card">
+                <h2>JavaScript</h2>
+                <p>1995</p>
+                <p>Linguagem de programação leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de scripts para páginas web.</p>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Saiba mais</a>
+            </article>
+
+            <article class="card">
+                <h2>Python</h2>
+                <p>1991</p>
+                <p>Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e de alto nível. Foi lançada em 1991 por Guido van Rossum.</p>
+                <a href="https://docs.python.org/pt-br/3.14/" target="_blank">Saiba mais</a>
+            </article> -->
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="logo-titulo">
+            <img src="imagens/shadow.jpg" alt="Logo Shadow Garden" class="logo">
+            <h1>SHADOW GARDEN</h1>
+        </div>
+        <ul class="footer-links">
+            <li><a href="https://instagram.com/aluraonline" target="_blank">
+                <img src="imagens/instagram.png" alt="Link para o Instagram da Alura" class="footer-icon instagram-icon">
+            </a></li>
+            <li><a href="https://www.alura.com.br/" target="_blank">
+                <img src="imagens/alura.png" alt="Link para o site da Alura" class="footer-icon">
+            </a></li>
+        </ul>
+    </footer> 
+    <script src="script.js"></script>
+</body>
+</html>
