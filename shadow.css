@@ -23,7 +23,7 @@ body {
     /* Fundo futurista com gradiente animado */
     background: linear-gradient(-45deg, #000000, #0a0a23, #000000, #1f002e);
     background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite;
+    animation: mudar 15s ease infinite;
 }
 
 header {
@@ -316,7 +316,7 @@ article a:hover {
 }
 
 /* Animação para o gradiente de background */
-@keyframes gradientAnimation {
+@keyframes mudar {
     0% {
         background-position: 0% 50%;
     }
@@ -328,4 +328,5 @@ article a:hover {
     }
 
 }
+
 
