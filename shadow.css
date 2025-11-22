@@ -163,6 +163,7 @@ article {
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Adiciona uma transição suave para efeitos de hover. */
     border-bottom: 1px solid var(--bg-color); /* Adiciona uma linha separadora na parte inferior do artigo. */
     padding-bottom: 1.5rem; /* Adiciona um espaçamento interno na parte inferior. */
+    text-align: center; /* Centraliza todo o texto dentro do artigo. */
 }
 
 article:hover {
@@ -325,4 +326,5 @@ article a:hover {
     100% {
         background-position: 0% 50%;
     }
+
 }
